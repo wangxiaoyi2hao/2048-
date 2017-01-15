@@ -2,8 +2,8 @@
 //  main.m
 //  2048游戏
 //
-//  Created by QzydeMac on 14/12/9.
-//  Copyright (c) 2014年 Qzy. All rights reserved.
+//  Created by ZH on 16/1/27.
+//  Copyright © 2016年 ZKW. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

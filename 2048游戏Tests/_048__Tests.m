@@ -2,10 +2,9 @@
 //  _048__Tests.m
 //  2048游戏Tests
 //
-//  Created by QzydeMac on 14/12/9.
-//  Copyright (c) 2014年 Qzy. All rights reserved.
+//  Created by ZH on 16/1/27.
+//  Copyright © 2016年 ZKW. All rights reserved.
 //
-
 #import <XCTest/XCTest.h>
 
 @interface _048__Tests : XCTestCase

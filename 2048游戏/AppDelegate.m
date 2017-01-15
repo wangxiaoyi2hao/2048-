@@ -2,17 +2,21 @@
 //  AppDelegate.m
 //  2048游戏
 //
-//  Created by QzydeMac on 14/12/9.
-//  Copyright (c) 2014年 Qzy. All rights reserved.
+//  Created by ZH on 16/1/27.
+//  Copyright © 2016年 ZKW. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.window.rootViewController = [[[RootViewController alloc]init] autorelease];
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

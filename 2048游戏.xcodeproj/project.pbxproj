@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530CF7FC1A36ADE8008D4D1E /* GameBackGround.m in Sources */ = {isa = PBXBuildFile; fileRef = 530CF7FB1A36ADE8008D4D1E /* GameBackGround.m */; };
+		533F50641A39DA0B001BBC4D /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 533F50621A39DA0B001BBC4D /* DataModel.m */; };
+		537C51A01A3EA3A000288089 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 537C519F1A3EA3A000288089 /* icon.png */; };
 		53BE6B4A1A369ADD0022216E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BE6B491A369ADD0022216E /* Foundation.framework */; };
 		53BE6B4C1A369ADD0022216E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BE6B4B1A369ADD0022216E /* CoreGraphics.framework */; };
 		53BE6B4E1A369ADD0022216E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BE6B4D1A369ADD0022216E /* UIKit.framework */; };
@@ -19,6 +22,12 @@
 		53BE6B651A369ADD0022216E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BE6B4D1A369ADD0022216E /* UIKit.framework */; };
 		53BE6B6D1A369ADD0022216E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53BE6B6B1A369ADD0022216E /* InfoPlist.strings */; };
 		53BE6B6F1A369ADD0022216E /* _048__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BE6B6E1A369ADD0022216E /* _048__Tests.m */; };
+		53BE6B7C1A369AFF0022216E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BE6B7B1A369AFF0022216E /* RootViewController.m */; };
+		53F38EAA1A3BE9F9001198DD /* DialogTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F38EA71A3BE9F9001198DD /* DialogTest.m */; };
+		53F38EAB1A3BE9F9001198DD /* DialogueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F38EA91A3BE9F9001198DD /* DialogueDemo.m */; };
+		53F38EC81A3C1594001198DD /* TopThreeGarde.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F38EC71A3C1594001198DD /* TopThreeGarde.m */; };
+		53F7B7971A3ADC5200074483 /* UIColor+ColorWithNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F7B7961A3ADC5200074483 /* UIColor+ColorWithNumber.m */; };
+		53F7B79E1A3AF6E000074483 /* IMG_0259.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 53F7B79D1A3AF6E000074483 /* IMG_0259.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		530CF7FA1A36ADE8008D4D1E /* GameBackGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBackGround.h; sourceTree = "<group>"; };
+		530CF7FB1A36ADE8008D4D1E /* GameBackGround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBackGround.m; sourceTree = "<group>"; };
+		533F50621A39DA0B001BBC4D /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		533F50631A39DA0B001BBC4D /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		537C519F1A3EA3A000288089 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../menus/icon.png; sourceTree = "<group>"; };
 		53BE6B461A369ADD0022216E /* 2048游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2048游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BE6B491A369ADD0022216E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53BE6B4B1A369ADD0022216E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +62,17 @@
 		53BE6B6A1A369ADD0022216E /* 2048游戏Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2048游戏Tests-Info.plist"; sourceTree = "<group>"; };
 		53BE6B6C1A369ADD0022216E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53BE6B6E1A369ADD0022216E /* _048__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _048__Tests.m; sourceTree = "<group>"; };
+		53BE6B7A1A369AFF0022216E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		53BE6B7B1A369AFF0022216E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		53F38EA61A3BE9F9001198DD /* DialogTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogTest.h; sourceTree = "<group>"; };
+		53F38EA71A3BE9F9001198DD /* DialogTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogTest.m; sourceTree = "<group>"; };
+		53F38EA81A3BE9F9001198DD /* DialogueDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogueDemo.h; sourceTree = "<group>"; };
+		53F38EA91A3BE9F9001198DD /* DialogueDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogueDemo.m; sourceTree = "<group>"; };
+		53F38EC61A3C1594001198DD /* TopThreeGarde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopThreeGarde.h; sourceTree = "<group>"; };
+		53F38EC71A3C1594001198DD /* TopThreeGarde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopThreeGarde.m; sourceTree = "<group>"; };
+		53F7B7951A3ADC5200074483 /* UIColor+ColorWithNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithNumber.h"; sourceTree = "<group>"; };
+		53F7B7961A3ADC5200074483 /* UIColor+ColorWithNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithNumber.m"; sourceTree = "<group>"; };
+		53F7B79D1A3AF6E000074483 /* IMG_0259.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0259.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +102,10 @@
 		53BE6B3D1A369ADD0022216E = {
 			isa = PBXGroup;
 			children = (
+				53F38EA51A3BE9F9001198DD /* menus */,
+				53F7B7981A3AEE8E00074483 /* Res */,
+				53BE6B781A369AF80022216E /* GUI */,
+				53BE6B791A369AF80022216E /* Res */,
 				53BE6B4F1A369ADD0022216E /* 2048游戏 */,
 				53BE6B681A369ADD0022216E /* 2048游戏Tests */,
 				53BE6B481A369ADD0022216E /* Frameworks */,
@@ -144,6 +173,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		53BE6B781A369AF80022216E /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				53BE6B7A1A369AFF0022216E /* RootViewController.h */,
+				53BE6B7B1A369AFF0022216E /* RootViewController.m */,
+				530CF7FA1A36ADE8008D4D1E /* GameBackGround.h */,
+				530CF7FB1A36ADE8008D4D1E /* GameBackGround.m */,
+				53F7B7951A3ADC5200074483 /* UIColor+ColorWithNumber.h */,
+				53F7B7961A3ADC5200074483 /* UIColor+ColorWithNumber.m */,
+				533F50631A39DA0B001BBC4D /* DataModel.h */,
+				533F50621A39DA0B001BBC4D /* DataModel.m */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		53BE6B791A369AF80022216E /* Res */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		53F38EA51A3BE9F9001198DD /* menus */ = {
+			isa = PBXGroup;
+			children = (
+				53F38EA61A3BE9F9001198DD /* DialogTest.h */,
+				53F38EA71A3BE9F9001198DD /* DialogTest.m */,
+				53F38EA81A3BE9F9001198DD /* DialogueDemo.h */,
+				53F38EA91A3BE9F9001198DD /* DialogueDemo.m */,
+				53F38EC61A3C1594001198DD /* TopThreeGarde.h */,
+				53F38EC71A3C1594001198DD /* TopThreeGarde.m */,
+			);
+			path = menus;
+			sourceTree = "<group>";
+		};
+		53F7B7981A3AEE8E00074483 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				537C519F1A3EA3A000288089 /* icon.png */,
+				53F7B79D1A3AF6E000074483 /* IMG_0259.JPG */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,8 +262,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = Qzy;
+				ORGANIZATIONNAME = ZKW;
 				TargetAttributes = {
+					53BE6B451A369ADD0022216E = {
+						DevelopmentTeam = 49LAVRRF8L;
+					};
 					53BE6B601A369ADD0022216E = {
 						TestTargetID = 53BE6B451A369ADD0022216E;
 					};
@@ -219,8 +295,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537C51A01A3EA3A000288089 /* icon.png in Resources */,
 				53BE6B541A369ADD0022216E /* InfoPlist.strings in Resources */,
 				53BE6B5C1A369ADD0022216E /* Images.xcassets in Resources */,
+				53F7B79E1A3AF6E000074483 /* IMG_0259.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +318,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				53BE6B5A1A369ADD0022216E /* AppDelegate.m in Sources */,
+				53F38EAB1A3BE9F9001198DD /* DialogueDemo.m in Sources */,
+				533F50641A39DA0B001BBC4D /* DataModel.m in Sources */,
+				530CF7FC1A36ADE8008D4D1E /* GameBackGround.m in Sources */,
 				53BE6B561A369ADD0022216E /* main.m in Sources */,
+				53F38EC81A3C1594001198DD /* TopThreeGarde.m in Sources */,
+				53F7B7971A3ADC5200074483 /* UIColor+ColorWithNumber.m in Sources */,
+				53BE6B7C1A369AFF0022216E /* RootViewController.m in Sources */,
+				53F38EAA1A3BE9F9001198DD /* DialogTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +374,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -316,6 +401,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B5E805A1-6763-4516-BC0E-1D01B2912F25";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -327,7 +413,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -347,6 +433,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "B5E805A1-6763-4516-BC0E-1D01B2912F25";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -357,10 +444,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2048游戏/2048游戏-Prefix.pch";
 				INFOPLIST_FILE = "2048游戏/2048游戏-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -370,10 +460,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2048游戏/2048游戏-Prefix.pch";
 				INFOPLIST_FILE = "2048游戏/2048游戏-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -437,6 +530,7 @@
 				53BE6B741A369ADD0022216E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53BE6B751A369ADD0022216E /* Build configuration list for PBXNativeTarget "2048游戏Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +539,7 @@
 				53BE6B771A369ADD0022216E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
